@@ -1,3 +1,4 @@
+/*For dice 1 */
 var randomnumber1 = Math.floor(Math.random() * 6)+1;
 
 var randomdice1 = "dice"+randomnumber1+".png";
@@ -8,7 +9,7 @@ var image1 = document.querySelectorAll("img")[0];
 
 image1.setAttribute("src",randomsource1);
 
-/* **************************************** */
+/* For dice 2 */
 
 var randomnumber2 = Math.floor(Math.random() * 6)+1;
 
